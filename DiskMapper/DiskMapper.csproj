@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="DirectoryNode.cs" />
     <Compile Include="DirectoryObject.cs" />
+    <Compile Include="FileNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

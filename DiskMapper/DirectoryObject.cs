@@ -20,14 +20,15 @@ namespace DiskMapper
 
         /// <summary>
         /// The directory this directory object is located in
+        /// NULL implies this is the root of the file tree
         /// </summary>
-        public abstract DirectoryObject Parent { get; }
+        public abstract DirectoryNode Parent { get; }
         
         /// <summary>
         /// Sets the size of this directory object 
         /// </summary>
         /// <param name="size">The number of bytes this directory object takes up</param>
-        protected abstract void UpdateSize(long size);
+        public abstract void UpdateSize(long size);
         
     }
 }
